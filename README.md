@@ -1,5 +1,3 @@
-<img width="960" alt="barcelona" src="https://user-images.githubusercontent.com/61084715/105638670-2d0d5d80-5e74-11eb-86c8-110701caa453.png">
-
-
-<img width="959" alt="barcelona_2" src="https://user-images.githubusercontent.com/61084715/105638714-837a9c00-5e74-11eb-8284-1fbf291abd1f.png">
-
+<img width="960" alt="barcelona" src="https://user-images.githubusercontent.com/61084715/105644135-31497300-5e94-11eb-9ac7-142ea1ecf3a5.png">
+<img width="960" alt="barcelona_2" src="https://user-images.githubusercontent.com/61084715/105644148-38708100-5e94-11eb-8dab-58d0e526b293.png">
+<img width="959" alt="barcelona_3" src="https://user-images.githubusercontent.com/61084715/105644170-47573380-5e94-11eb-8fbe-d0326a5702ab.png">
