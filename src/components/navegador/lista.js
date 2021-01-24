@@ -1,6 +1,5 @@
 import React from 'react';
-import {List , ListItem, ListItemIcon, ListItemText , makeStyles
-} from '@material-ui/core';
+import {List , ListItem, ListItemIcon, ListItemText, Divider} from '@material-ui/core';
 import EuroIcon from '@material-ui/icons/Euro';
 import CreditCardIcon from '@material-ui/icons/CreditCard';
 import LockOpenIcon from '@material-ui/icons/LockOpen';
@@ -8,7 +7,7 @@ import LockOpenIcon from '@material-ui/icons/LockOpen';
 
 
 const Listas = () => {
-  
+
   return(
     <div>
       <List component='nav' >
@@ -56,6 +55,16 @@ const Listas = () => {
             Promociones
           </ListItemText>
         </ListItem>
+        <Divider />
+        <ListItem button>
+          <ListItemIcon>
+            <LockOpenIcon />
+          </ListItemIcon>
+          <ListItemText >
+            Simula tu Plazo fijo
+          </ListItemText>
+        </ListItem>
+
       </List>
     </div>
   )
