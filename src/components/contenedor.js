@@ -6,6 +6,8 @@ import {
 import Cajon from './cajon/cajon.js';
 import Navbar from './navegador/navbar.js';
 import Footer from './footer';
+import PlazoFijo from './plazofijo.js'
+
 
 const useStyles = makeStyles(theme => ({
   root : {
@@ -44,18 +46,12 @@ const Contenedor = () => {
           onClose= {accionAbrir}
         />
 
-      </Hidden>
-      
+      </Hidden> 
       <div className={classes.content}>
-        
-        <div className={classes.toolbar}>
-           
-        </div>
-        <Footer  /> 
-        
-       </div>
-      
-      
+        <div className={classes.toolbar}></div>
+        <PlazoFijo/>
+        <Footer  />
+      </div>
     </div>
 
 

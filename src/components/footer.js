@@ -48,7 +48,7 @@ const Footer = () => {
     <Box 
       component='footer'
       color='#f2f2f2'
-      bgcolor='#5C5A59'
+      bgcolor='rgba(92, 90, 89,0.6)'
       py={0}
       position='fixed'
       width='100%'
