@@ -7,6 +7,8 @@ import Cajon from './cajon/cajon.js';
 import Navbar from './navegador/navbar.js';
 import Footer from './footer';
 import PlazoFijo from './plazofijo.js'
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import Simulador from './simulador.js';
 
 
 const useStyles = makeStyles(theme => ({
@@ -37,21 +39,32 @@ const Contenedor = () => {
 
   return (
     <div className={classes.root}>
-      <Navbar accionAbrir={accionAbrir} />
-    
-      <Hidden xlUp>
-        <Cajon
-          variant="temporary"
-          open={abrir}
-          onClose= {accionAbrir}
-        />
+      <BrowserRouter>
+        <Navbar accionAbrir={accionAbrir} />
+      
+        <Hidden xlUp>
+          <Cajon
+            variant="temporary"
+            open={abrir}
+            onClose= {accionAbrir}
+          />
 
-      </Hidden> 
-      <div className={classes.content}>
-        <div className={classes.toolbar}></div>
-        <PlazoFijo/>
-        <Footer  />
-      </div>
+        </Hidden> 
+        
+        <div className={classes.content}>
+          <div className={classes.toolbar}></div>
+          <Switch>
+            <Route path="/simulador">
+              <PlazoFijo />
+              <Simulador />
+            </Route>
+            <Route path="/">
+              <PlazoFijo />
+            </Route>
+          </Switch>
+          <Footer  />
+        </div>
+      </BrowserRouter>
     </div>
 
 
