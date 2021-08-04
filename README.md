@@ -6,3 +6,7 @@
 
 <img width="960" alt="simulador_plazo fijo" src="https://user-images.githubusercontent.com/61084715/128261689-fde582ad-a79c-409e-a5f9-875f0442dcb6.png">
 <img width="959" alt="simulador_plazo fijo_2" src="https://user-images.githubusercontent.com/61084715/128261693-a05a557c-2472-4494-8d33-30acf29046ec.png">
+
+# Video de la App
+
+https://user-images.githubusercontent.com/61084715/128263169-f78e8af0-ee31-469a-8a1a-54a8f2c97740.mp4
