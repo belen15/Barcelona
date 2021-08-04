@@ -93,7 +93,7 @@ const Simulador = () => {
           />          
         </div>
         <div className={classes.elementos}>
-          <p>Ingrese plazo</p>
+          <p>Ingrese plazo en días</p>
           <NumberFormat
             className={classes.inputEnd}
             type="text"
@@ -107,7 +107,7 @@ const Simulador = () => {
           
         </div>
         <div className={classes.elementos}>
-          <p>Interes</p>
+          <p>Interes anual</p>
           
           <p> {porcentaje} %</p>
         </div>
